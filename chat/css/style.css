@@ -1,0 +1,120 @@
+.selected {
+  background: #5c5959;
+}
+
+.green {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+  background: #1e9e1e;
+  font-size: 20px;
+  border-radius: 15px 15px 0 0;
+  color: white;
+}
+.green #full {
+  cursor: pointer;
+}
+.green #full:hover {
+  color: black;
+}
+
+.container .main-div .message {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  background: #3b3b3b;
+  width: 80%;
+  margin: 50px auto 0;
+}
+.container .main-div .message #textbox {
+  border: none;
+  background: #3b3b3b;
+  height: 40px;
+  width: 100%;
+}
+.container .main-div .message .send {
+  cursor: pointer;
+  text-align: center;
+  width: 45px;
+  height: 42px;
+  border: 2px solid #1e9e1e;
+  border-radius: 100%;
+  color: #1e9e1e;
+  font-size: 20px;
+}
+.container .main-div .delete {
+  cursor: pointer;
+}
+.container .main-div .delete:hover {
+  color: black;
+}
+.container .main-div .messenger {
+  overflow-y: scroll;
+  border-radius: 0 0 15px 15px;
+  margin: 0 auto;
+  width: 80%;
+  background: #3b3b3b;
+  height: 500px;
+}
+.container .main-div .messenger .fixed {
+  color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 1.5px solid #5c5959;
+}
+.container .main-div .messenger .fixed .img {
+  width: 70px;
+  height: 60px;
+}
+.container .main-div .messenger .fixed .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.container .main-div .messenger .left {
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 1.5px solid #5c5959;
+}
+.container .main-div .messenger .left .img {
+  width: 70px;
+  height: 60px;
+}
+.container .main-div .messenger .left .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.container .main-div .messenger .right {
+  padding: 10px;
+  color: white;
+  text-align: end;
+  align-items: center;
+  border-bottom: 1.5px solid #5c5959;
+}
+.container .main-div .messenger .right p {
+  display: inline-block;
+}
+.container .main-div .messenger .right .img {
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+}
+.container .main-div .messenger .right .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.container .main-div .greenFull {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+  width: 80%;
+  border-radius: 15px 15px 0 0;
+  background: #1e9e1e;
+}
